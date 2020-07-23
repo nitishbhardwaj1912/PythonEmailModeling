@@ -20,17 +20,9 @@ Here is a run of gmane.py getting the last five messages of the
 sakai developer list:
 
 How many messages:1
+
 http://mbox.dr-chuck.net/sakai.devel/1/2 2662
     ggolden@umich.edu 2005-12-08T23:34:30-06:00 call for participation: developers documentation
-How many messages:100
-http://mbox.dr-chuck.net/sakai.devel/2/3 2434
-    csev@umich.edu 2005-12-09T00:58:01-05:00 report from the austin conference:  sakai developers break into song
-http://mbox.dr-chuck.net/sakai.devel/3/4 3055
-    kevin.carpenter@rsmart.com 2005-12-09T09:01:49-07:00 cas and sakai 1.5
-http://mbox.dr-chuck.net/sakai.devel/4/5 11721
-    michael.feldstein@suny.edu 2005-12-09T09:43:12-05:00 re: lms/vle rants/comments
-http://mbox.dr-chuck.net/sakai.devel/5/6 9443
-    john@caret.cam.ac.uk 2005-12-09T13:32:29+00:00 re: lms/vle rants/comments
 
 2. #### gmodel.py
 
@@ -39,11 +31,17 @@ The second process is running the program gmodel.py.  gmodel.py reads the rough/
 Sample output from gmodel.py:
 
 Loaded allsenders 1771 and mapping 29 dns mapping 1
-1 2005-12-08T23:34:30-06:00 ggolden22@mac.com
-251 2005-12-22T10:03:20-08:00 tpamsler@ucdavis.edu
-501 2006-01-12T11:17:34-05:00 lance@indiana.edu
-751 2006-01-24T11:13:28-08:00 vrajgopalan@ucmerced.edu
-1001 2006-02-02T08:27:30-07:00 john.ellis@rsmart.com
+
+1 2005-12-08T23:34:30-06:00 *******
+
+251 2005-12-22T10:03:20-08:00 *******
+
+501 2006-01-12T11:17:34-05:00 *******
+
+751 2006-01-24T11:13:28-08:00 *******
+
+1001 2006-02-02T08:27:30-07:00 *******
+
 ...
 
 Domain names are truncated to two levels for .com, .org, .edu, and .net 
@@ -62,23 +60,37 @@ The first, simplest data analysis is to do a "who does the most" and "which
 organzation does the most"?  This is done using gbasic.py:
 
 How many to dump? 20
+
 Loaded messages= 58957 subjects= 29059 senders= 1765
 
 Top 20 Email list participants
-steve.swinsburg@swinsborg.com 3301
-azeckoski@unicon.net 1907
-ian@cam.ac.uk 1591
-csev@umich.edu 1468
-david.horwitz@uct.ac.za 1221
-matthew@longsight.com 1147
+
+*******g@swinsborg.com 3301
+
+*******@unicon.net 1907
+
+*******@cam.ac.uk 1591
+
+*******@umich.edu 1468
+
+*******@uct.ac.za 1221
+
+*******@longsight.com 1147
+
 ...
 
 Top 20 Email list organizations
+
 umich.edu 6782
+
 gmail.com 5585
+
 swinsborg.com 3301
+
 cam.ac.uk 2626
+
 uct.ac.za 2576
+
 indiana.edu 2333
 ...
 
