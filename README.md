@@ -98,6 +98,10 @@ indiana.edu 2333
 
 In this task, a word cloud is created. Sample output:
 
+<p align="center">
+  <img src="Image\wordcloud.png" alt="Wordcloud">
+</p>
+
 5. #### gline.py
 
 In this task, email participation by organizations over time is visualized. Sample output: 
