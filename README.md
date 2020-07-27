@@ -1,9 +1,9 @@
 # Analysis of Emails and visualizing them using D3
-This repository contains objects related to the analysis of EMAIL archives based on gmane[1].
+This project[1] contains objects related to the analysis of EMAIL archives based on gmane[2].
 
 ## About Dataset
 
-In this project, the data is the email corpus from the Sakai open source project from 2004-2011. The analysis is based on Dr. Chuck's coursera course[2][3].
+In this project, the data is the email corpus from the Sakai open source project from 2004-2011. The analysis is based on Dr. Chuck's coursera course[3][4].
 
 The dataset is pulled from http://mbox.dr-chuck.net/
 
@@ -111,8 +111,11 @@ In this task, email participation by organizations over time is visualized. Samp
 https://nitishbhardwaj1912.github.io/PythonEmailModeling/
 
 ## References:
-[1] En.wikipedia.org. 2020. Gmane. [online] Available at: <https://en.wikipedia.org/wiki/Gmane> [Accessed 21 July 2020].
 
-[2] Dr-chuck.com. 2020. Dr. Charles R. Severance Home Page. [online] Available at: <https://www.dr-chuck.com/> [Accessed 21 July 2020].
+[1] Coursera. Nitish Bhardwaj. Online Certificate. [online] Available at: <https://coursera.org/share/f6b18886cc623535d821803ea1f38286> [Accessed 22 July 2020]. 
 
-[3] Coursera. 2020. Charles Russell Severance, Instructor | Coursera. [online] Available at: <https://www.coursera.org/instructor/drchuck> [Accessed 21 July 2020].
+[2] En.wikipedia.org. 2020. Gmane. [online] Available at: <https://en.wikipedia.org/wiki/Gmane> [Accessed 21 July 2020].
+
+[3] Dr-chuck.com. 2020. Dr. Charles R. Severance Home Page. [online] Available at: <https://www.dr-chuck.com/> [Accessed 21 July 2020].
+
+[4] Coursera. 2020. Charles Russell Severance, Instructor | Coursera. [online] Available at: <https://www.coursera.org/instructor/drchuck> [Accessed 21 July 2020].
